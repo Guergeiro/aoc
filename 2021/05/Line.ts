@@ -10,7 +10,7 @@ export class Line {
   }
 
   public getTuple() {
-    return [this.#coordinate1, this.#coordinate2]
+    return [this.#coordinate1, this.#coordinate2];
   }
 
   get coordinate1() {
