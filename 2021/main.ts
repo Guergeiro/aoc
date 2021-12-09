@@ -10,6 +10,8 @@ import { AOC2021_05_1 } from "./05/AOC2021_05_1.ts";
 import { AOC2021_05_2 } from "./05/AOC2021_05_2.ts";
 import { AOC2021_06_1 } from "./06/AOC2021_06_1.ts";
 import { AOC2021_06_2 } from "./06/AOC2021_06_2.ts";
+import { AOC2021_07_1 } from "./07/AOC2021_07_1.ts";
+import { AOC2021_07_2 } from "./07/AOC2021_07_2.ts";
 
 async function main() {
   console.log(
@@ -44,7 +46,6 @@ async function main() {
     "04_2",
     await AOC2021_04_2(await Deno.realPath("./04/input_question.txt")),
   );
-
   console.log(
     "05_1",
     await AOC2021_05_1(await Deno.realPath("./05/input_question.txt")),
@@ -61,6 +62,15 @@ async function main() {
     "06_2",
     await AOC2021_06_2(await Deno.realPath("./06/input_question.txt")),
   );
+  console.log(
+    "07_1",
+    await AOC2021_07_1(await Deno.realPath("./07/input_question.txt")),
+  );
+  console.log(
+    "07_2",
+    await AOC2021_07_2(await Deno.realPath("./07/input_question.txt")),
+  );
+  //https://github.com/FourLineCode/advent-of-code-2021/blob/main/solutions/8.js
 }
 
 if (import.meta.main === true) {
