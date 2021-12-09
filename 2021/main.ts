@@ -14,6 +14,8 @@ import { AOC2021_07_1 } from "./07/AOC2021_07_1.ts";
 import { AOC2021_07_2 } from "./07/AOC2021_07_2.ts";
 import { AOC2021_08_1 } from "./08/AOC2021_08_1.ts";
 import { AOC2021_08_2 } from "./08/AOC2021_08_2.ts";
+import { AOC2021_09_1 } from "./09/AOC2021_09_1.ts";
+import { AOC2021_09_2 } from "./09/AOC2021_09_2.ts";
 
 async function main() {
   console.log(
@@ -80,6 +82,14 @@ async function main() {
   console.log(
     "08_2",
     await AOC2021_08_2(await Deno.realPath("./08/input_question.txt")),
+  );
+  console.log(
+    "09_1",
+    await AOC2021_09_1(await Deno.realPath("./09/input_question.txt")),
+  );
+  console.log(
+    "09_2",
+    await AOC2021_09_2(await Deno.realPath("./09/input_question.txt")),
   );
 }
 
