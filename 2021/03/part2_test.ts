@@ -1,5 +1,5 @@
 import { assertEquals } from "../deps.ts";
-import { calculatePowerConsumption } from "./AOC2021_03_2.ts";
+import { calculatePowerConsumption } from "./part2.ts";
 
 const { test } = Deno;
 

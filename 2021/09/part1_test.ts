@@ -1,9 +1,9 @@
 import { assertEquals } from "../deps.ts";
-import { calculate } from "./AOC2021_09_2.ts";
+import { calculate } from "./part1.ts";
 
 const { test } = Deno;
 
-test("Test Example 2", function () {
+test("Test Example 1", function () {
   const input = [
     "2199943210",
     "3987894921",
@@ -12,5 +12,5 @@ test("Test Example 2", function () {
     "9899965678",
   ];
 
-  assertEquals(calculate(input), 1134);
+  assertEquals(calculate(input), 15);
 });

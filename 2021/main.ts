@@ -1,21 +1,21 @@
-import { AOC2021_01_1 } from "./01/AOC2021_01_1.ts";
-import { AOC2021_01_2 } from "./01/AOC2021_01_2.ts";
-import { AOC2021_02_1 } from "./02/AOC2021_02_1.ts";
-import { AOC2021_02_2 } from "./02/AOC2021_02_2.ts";
-import { AOC2021_03_1 } from "./03/AOC2021_03_1.ts";
-import { AOC2021_03_2 } from "./03/AOC2021_03_2.ts";
-import { AOC2021_04_1 } from "./04/AOC2021_04_1.ts";
-import { AOC2021_04_2 } from "./04/AOC2021_04_2.ts";
-import { AOC2021_05_1 } from "./05/AOC2021_05_1.ts";
-import { AOC2021_05_2 } from "./05/AOC2021_05_2.ts";
-import { AOC2021_06_1 } from "./06/AOC2021_06_1.ts";
-import { AOC2021_06_2 } from "./06/AOC2021_06_2.ts";
-import { AOC2021_07_1 } from "./07/AOC2021_07_1.ts";
-import { AOC2021_07_2 } from "./07/AOC2021_07_2.ts";
-import { AOC2021_08_1 } from "./08/AOC2021_08_1.ts";
-import { AOC2021_08_2 } from "./08/AOC2021_08_2.ts";
-import { AOC2021_09_1 } from "./09/AOC2021_09_1.ts";
-import { AOC2021_09_2 } from "./09/AOC2021_09_2.ts";
+import { AOC2021_01_1 } from "./01/part1.ts";
+import { AOC2021_01_2 } from "./01/part2.ts";
+import { AOC2021_02_1 } from "./02/part1.ts";
+import { AOC2021_02_2 } from "./02/part2.ts";
+import { AOC2021_03_1 } from "./03/part1.ts";
+import { AOC2021_03_2 } from "./03/part2.ts";
+import { AOC2021_04_1 } from "./04/part1.ts";
+import { AOC2021_04_2 } from "./04/part2.ts";
+import { AOC2021_05_1 } from "./05/part1.ts";
+import { AOC2021_05_2 } from "./05/part2.ts";
+import { AOC2021_06_1 } from "./06/part1.ts";
+import { AOC2021_06_2 } from "./06/part2.ts";
+import { AOC2021_07_1 } from "./07/part1.ts";
+import { AOC2021_07_2 } from "./07/part2.ts";
+import { AOC2021_08_1 } from "./08/part1.ts";
+import { AOC2021_08_2 } from "./08/part2.ts";
+import { AOC2021_09_1 } from "./09/part1.ts";
+import { AOC2021_09_2 } from "./09/part2.ts";
 
 async function main() {
   console.log(

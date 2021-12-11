@@ -1,5 +1,5 @@
 import { assertEquals } from "../deps.ts";
-import { winnerScore } from "./AOC2021_04_1.ts";
+import { winnerScore } from "./part2.ts";
 import { Bingo } from "./Bingo.ts";
 import { Builder } from "./Builder.ts";
 
@@ -62,5 +62,5 @@ test("Test Example", function () {
 
   const bingo = Builder.buildBingo(stringGames);
   assertEquals(bingo instanceof Bingo, true);
-  assertEquals(winnerScore(bingo, outNumbers), 4512);
+  assertEquals(winnerScore(bingo, outNumbers), 1924);
 });

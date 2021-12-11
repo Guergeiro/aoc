@@ -1,6 +1,6 @@
 import { assertEquals } from "../deps.ts";
 import { Action } from "./Action.ts";
-import { calculate } from "./AOC2021_02_2.ts";
+import { calculate } from "./part2.ts";
 
 const { test } = Deno;
 
