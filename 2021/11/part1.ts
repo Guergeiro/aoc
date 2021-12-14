@@ -8,7 +8,6 @@ export async function AOC2021_11_1(file: string) {
 }
 
 export function calculate(input: string[]) {
-
   const octupus = getOctupus(input);
 
   simulate(octupus, 100, function (step) {

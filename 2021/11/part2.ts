@@ -1,5 +1,5 @@
 import { readInput } from "../utils.ts";
-import { getOctupus,  simulate } from "./shared.ts";
+import { getOctupus, simulate } from "./shared.ts";
 
 export async function AOC2021_11_2(file: string) {
   const input = (await readInput(file)).split("\n");
