@@ -22,7 +22,7 @@ func Part2() {
 	fmt.Println(handlePart2(arrQuestion))
 }
 
-func handlePart1(input []string)int {
+func handlePart1(input []string) int {
 	ruckstacks := convertStrToRune(input)
 	sum := 0
 	for _, ruckstack := range ruckstacks {
@@ -34,19 +34,19 @@ func handlePart1(input []string)int {
 		})
 		sum += getValue(repeatedElement)
 	}
-  return sum
+	return sum
 }
 
-func handlePart2(input []string)int {
+func handlePart2(input []string) int {
 	ruckstacks := convertStrToRune(input)
 	groups := createGroup(ruckstacks, 3)
 	sum := 0
 	for _, ruckstacks := range groups {
-    firstHalf := ruckstacks[0]
-    repeatedElement := findRepeatedElement(firstHalf, ruckstacks[1:])
-    sum += getValue(repeatedElement)
+		firstHalf := ruckstacks[0]
+		repeatedElement := findRepeatedElement(firstHalf, ruckstacks[1:])
+		sum += getValue(repeatedElement)
 	}
-  return sum
+	return sum
 }
 func createGroup(runestacks [][]rune, perGroup int) [][][]rune {
 	groups := [][][]rune{}
@@ -80,9 +80,9 @@ func convertStrToRune(input []string) [][]rune {
 
 func findRepeatedElement(initialRuckstack []rune, ruckstacks [][]rune) rune {
 	for _, individualRune := range initialRuckstack {
-    if array.ContainsInAll(ruckstacks, individualRune) {
-      return individualRune
-    }
+		if array.ContainsInAll(ruckstacks, individualRune) {
+			return individualRune
+		}
 	}
 	return 0
 }

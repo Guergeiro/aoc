@@ -2,10 +2,10 @@ package aoc01
 
 import (
 	"fmt"
-	"sort"
-	"strconv"
 	"github.com/guergeiro/aoc/2022/_array"
 	"github.com/guergeiro/aoc/2022/_reader"
+	"sort"
+	"strconv"
 )
 
 func Part1() {

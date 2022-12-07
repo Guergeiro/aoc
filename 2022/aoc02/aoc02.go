@@ -36,16 +36,16 @@ func convertToCleanGames(input []string) []string {
 	for _, value := range input {
 		games = append(games, value)
 	}
-  return games
+	return games
 }
 
 func extractGames(input []string) []string {
 	games := []string{}
 	possibleMatchingPlays := getMatchingPlays()
 	for _, value := range input {
-    games = append(games, possibleMatchingPlays[value])
+		games = append(games, possibleMatchingPlays[value])
 	}
-  return games
+	return games
 }
 
 func getPossiblePlays() map[string]int {
@@ -64,7 +64,7 @@ func getPossiblePlays() map[string]int {
 }
 
 func getMatchingPlays() map[string]string {
-  matchingPlays := map[string]string {
+	matchingPlays := map[string]string{
 		"A X": "A Z",
 		"A Y": "A X",
 		"A Z": "A Y",
@@ -74,6 +74,6 @@ func getMatchingPlays() map[string]string {
 		"C X": "C Y",
 		"C Y": "C Z",
 		"C Z": "C X",
-  }
-  return matchingPlays
+	}
+	return matchingPlays
 }

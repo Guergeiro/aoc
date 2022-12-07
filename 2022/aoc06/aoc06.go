@@ -17,31 +17,31 @@ func hasDup(s []rune) bool {
 	return false
 }
 
-func getDifferentIndex(input []string, amount int)[]int {
-  indexes := []int{}
-  for _, row := range input {
-    runeSlice := []rune(row)
-    for idx:=0; idx<len(runeSlice); idx += 1 {
-      slice := runeSlice[idx:idx+amount]
-      if hasDup(slice) == false {
-        indexes = append(indexes, idx + amount)
-        break;
-      }
-    }
-  }
-  return indexes
+func getDifferentIndex(input []string, amount int) []int {
+	indexes := []int{}
+	for _, row := range input {
+		runeSlice := []rune(row)
+		for idx := 0; idx < len(runeSlice); idx += 1 {
+			slice := runeSlice[idx : idx+amount]
+			if hasDup(slice) == false {
+				indexes = append(indexes, idx+amount)
+				break
+			}
+		}
+	}
+	return indexes
 }
 
 func Part1() {
 	arrExample := reader.ReadFileStrings("aoc06/input_example.txt")
 	arrQuestion := reader.ReadFileStrings("aoc06/input_question.txt")
-  fmt.Println(getDifferentIndex(arrExample, 4))
-  fmt.Println(getDifferentIndex(arrQuestion, 4))
+	fmt.Println(getDifferentIndex(arrExample, 4))
+	fmt.Println(getDifferentIndex(arrQuestion, 4))
 }
 
 func Part2() {
 	arrExample := reader.ReadFileStrings("aoc06/input_example.txt")
 	arrQuestion := reader.ReadFileStrings("aoc06/input_question.txt")
-  fmt.Println(getDifferentIndex(arrExample, 14))
-  fmt.Println(getDifferentIndex(arrQuestion, 14))
+	fmt.Println(getDifferentIndex(arrExample, 14))
+	fmt.Println(getDifferentIndex(arrQuestion, 14))
 }
