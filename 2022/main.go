@@ -10,6 +10,7 @@ import (
 	"github.com/guergeiro/aoc/2022/aoc05"
 	"github.com/guergeiro/aoc/2022/aoc06"
 	"github.com/guergeiro/aoc/2022/aoc07"
+	"github.com/guergeiro/aoc/2022/aoc08"
 )
 
 func main() {
@@ -46,5 +47,10 @@ func main() {
 	fmt.Println("7")
 	aoc07.Part1()
 	aoc07.Part2()
+	fmt.Println("")
+
+	fmt.Println("8")
+	aoc08.Part1()
+	aoc08.Part2()
 	fmt.Println("")
 }
