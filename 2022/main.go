@@ -11,6 +11,7 @@ import (
 	"github.com/guergeiro/aoc/2022/aoc06"
 	"github.com/guergeiro/aoc/2022/aoc07"
 	"github.com/guergeiro/aoc/2022/aoc08"
+	"github.com/guergeiro/aoc/2022/aoc09"
 )
 
 func main() {
@@ -52,5 +53,10 @@ func main() {
 	fmt.Println("8")
 	aoc08.Part1()
 	aoc08.Part2()
+	fmt.Println("")
+
+	fmt.Println("9")
+	aoc09.Part1()
+	aoc09.Part2()
 	fmt.Println("")
 }
