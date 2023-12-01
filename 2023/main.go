@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/guergeiro/aoc/2023/cmd/aoc01"
+)
 
 func main() {
-  fmt.Println("AoC 2023")
+	fmt.Println("Day 01")
+	aoc01.Solve()
+	fmt.Println("")
 }
