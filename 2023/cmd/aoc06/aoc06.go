@@ -2,6 +2,7 @@ package aoc06
 
 import (
 	"fmt"
+	// "math"
 	"regexp"
 	"strconv"
 	"strings"
@@ -89,6 +90,17 @@ func newRace(time int, distance int) race {
 		time:   time,
 		record: distance,
 	}
+}
+
+func (r race) nextRecords() {
+	// quadratic := func(a, b, c int) (int, int) {
+	// 	discrim := b*b - 4*a*c
+	// 	sqrt := 1 + math.Sqrt(float64(discrim-1))
+	// 	return int(sqrt) - b, b*-1 - int(sqrt)
+	// }
+	// t := 0
+	// for t < r.time {
+	// }
 }
 
 func (r race) race(b boat) []int {
