@@ -12,6 +12,7 @@ import (
 	"github.com/guergeiro/aoc/2023/cmd/aoc06"
 	"github.com/guergeiro/aoc/2023/cmd/aoc07"
 	"github.com/guergeiro/aoc/2023/cmd/aoc08"
+	"github.com/guergeiro/aoc/2023/cmd/aoc09"
 	"github.com/spf13/cobra"
 )
 
@@ -29,6 +30,7 @@ func Execute() {
 			aoc06.Solve()
 			aoc07.Solve()
 			aoc08.Solve()
+			aoc09.Solve()
 		},
 	}
 	rootCmd.AddCommand(
@@ -78,6 +80,12 @@ func Execute() {
 			Use: "8",
 			Run: func(cmd *cobra.Command, args []string) {
 				aoc08.Solve()
+			},
+		},
+		&cobra.Command{
+			Use: "9",
+			Run: func(cmd *cobra.Command, args []string) {
+				aoc09.Solve()
 			},
 		},
 	)
