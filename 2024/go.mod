@@ -2,7 +2,10 @@ module github.com/guergeiro/aoc/2024
 
 go 1.23.2
 
-require github.com/stretchr/testify v1.10.0
+require (
+	deedles.dev/xiter v0.1.1
+	github.com/stretchr/testify v1.10.0
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
