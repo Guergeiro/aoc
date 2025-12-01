@@ -1,6 +1,9 @@
+# Created by https://www.toptal.com/developers/gitignore/api/windows,linux,macos,vim,direnv
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos,vim,direnv
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,linux,macos,vim
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos,vim
+### direnv ###
+.direnv
+.envrc
 
 ### Linux ###
 *~
@@ -24,7 +27,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -44,6 +48,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### macOS Patch ###
+# iCloud generated files
+*.icloud
 
 ### Vim ###
 # Swap
@@ -91,4 +99,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,vim
+# End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,vim,direnv
