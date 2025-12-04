@@ -1,8 +1,10 @@
-all: aoc01
+all: aoc01 aoc02
 
 # Run the application
 aoc01:
 	@go run cmd/aoc01/main.go
+aoc02:
+	@go run cmd/aoc02/main.go
 
 # Test the application
 test:
@@ -12,4 +14,4 @@ format:
 	@echo "Formatting..."
 	@gofmt -w .
 
-.PHONY: all aoc01 test format
+.PHONY: all aoc01 aoc02 test format
