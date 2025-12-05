@@ -1,4 +1,4 @@
-package aoc02
+package aoc03
 
 import (
 	"testing"
@@ -12,7 +12,7 @@ func TestPart1(t *testing.T) {
 
 	assert.NoError(t, err)
 
-	assert.Equal(t, 1227775554, Part1(arr))
+	assert.Equal(t, 357, Part1(arr))
 }
 
 func TestPart2(t *testing.T) {
@@ -20,5 +20,5 @@ func TestPart2(t *testing.T) {
 
 	assert.NoError(t, err)
 
-	assert.Equal(t, 4174379265, Part2(arr))
+	assert.Equal(t, 3121910778619, Part2(arr))
 }

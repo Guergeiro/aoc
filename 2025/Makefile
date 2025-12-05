@@ -1,10 +1,12 @@
-all: aoc01 aoc02
+all: aoc01 aoc02 aoc03
 
 # Run the application
 aoc01:
 	@go run cmd/aoc01/main.go
 aoc02:
 	@go run cmd/aoc02/main.go
+aoc03:
+	@go run cmd/aoc03/main.go
 
 # Test the application
 test:

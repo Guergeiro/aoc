@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	reader "github.com/guergeiro/aoc/2025/internal"
+	"github.com/guergeiro/aoc/2025/internal/reader"
 	"github.com/guergeiro/aoc/2025/pkg/aoc02"
 )
 

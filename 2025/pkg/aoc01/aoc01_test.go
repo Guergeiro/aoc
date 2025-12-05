@@ -3,7 +3,7 @@ package aoc01
 import (
 	"testing"
 
-	reader "github.com/guergeiro/aoc/2025/internal"
+	"github.com/guergeiro/aoc/2025/internal/reader"
 	"github.com/stretchr/testify/assert"
 )
 
